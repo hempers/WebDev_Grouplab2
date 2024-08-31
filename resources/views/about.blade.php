@@ -10,14 +10,16 @@
 </head>
 <body>
   <header>
-    <div class="logo">
-        <h1 class="text">Laravel</h1>
-    </div>
+  <div class="logo">
+        <a href="{{ url('/') }}" style="text-decoration: none;">
+          <h1 class="text">Laravel</h1>
+        </a>
+  </div>
     <nav class="logo">
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="content.html">Content</a></li>
+        <li><a href="{{ url('/home')}}">Home</a></li>
+            <li><a href="{{ url('/about')}}">About</a></li>
+            <li><a href="{{ url('/content')}}">Content</a></li>
         </ul>
     </nav>
 </header>
