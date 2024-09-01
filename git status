@@ -1,0 +1,65 @@
+[33mcommit 1f643b8932942a22d2ae6bbd7a956e11c897146b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mrichard[m[33m)[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sun Sep 1 14:41:52 2024 +0800
+
+    removed .gitignore
+
+[33mcommit 547c3234d3cfe41d2ffad3664ba0e9fd64dc680c[m[33m ([m[1;32mr[m[33m)[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:37:11 2024 +0800
+
+    changed hrefbutton
+
+[33mcommit 025bc2872825dae9cbfc009794366a468afe211e[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:27:21 2024 +0800
+
+    changed settings
+
+[33mcommit e49282b5b2319ea81b117c2e8b194149187dacd9[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:24:36 2024 +0800
+
+    deleted me.jpg
+
+[33mcommit 948297be7908853b69f649a0cbd1e9c7ead1231a[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:19:00 2024 +0800
+
+    updated hrefs
+
+[33mcommit 258f3320de06e8e55047655a7b4722a3c92f649f[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:13:21 2024 +0800
+
+    Update .env file
+
+[33mcommit 2985d2cce8c68436caccaddab76de342d343a544[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:12:19 2024 +0800
+
+    updated views&routes
+
+[33mcommit fa72e2f8a58e537d3a0804b8df9d10a8a64e8caa[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:07:45 2024 +0800
+
+    uploaded assets
+
+[33mcommit 872c158d5a20e11ed6ddd142a3a26d87d40427c7[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 20:03:37 2024 +0800
+
+    uploaded views
+
+[33mcommit db7a0c0e0d02d08b83dc0c5bde622809f5fc2c47[m[33m ([m[1;31morigin/Thei[m[33m, [m[1;31morigin/Richard[m[33m, [m[1;31morigin/Meh[m[33m, [m[1;32mThei[m[33m, [m[1;32mRichard[m[33m, [m[1;32mMeh[m[33m)[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 19:24:25 2024 +0800
+
+    added .env file
+
+[33mcommit c84b07da81d725c8bab217e5b0a42ee4ce962fbd[m
+Author: hempers <mabb2022-3195-82184@bicol-u.edu.ph>
+Date:   Sat Aug 31 19:20:20 2024 +0800
+
+    uploaded files
