@@ -326,7 +326,7 @@
 
 			<div class="form-group position-relative">
 				<label for="formName" class="d-block">
-					<i class="icon" data-feather="user"></i>
+					<i id="icon" class="icon" data-feather="user"></i>
 				</label>
 				<input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
 			</div>
