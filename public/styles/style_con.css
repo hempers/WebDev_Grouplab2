@@ -130,6 +130,7 @@ body{
     font-family: "Pacifico", cursive;
     color: #dfeeff;
     font-size: 2.5rem;
+    margin-left: -10px;
   }
   form .form-control {
     background-color: #f2f6f8;
