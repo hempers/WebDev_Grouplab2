@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 .wrapper {
     width: 2000px;
-    /* Adjust width as needed */
+    height: 800px;
     padding: 20px;
     background: #57565c;
     box-shadow: 1px 1px 25px 3px rgba(0, 0, 0, .3);
@@ -92,7 +92,8 @@ nav ul li a:hover {
 
 .header {
     font-size: 2.875rem;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     text-align: center;
     font-weight: normal;
     /* Ensure the header is not bold */
@@ -112,7 +113,7 @@ nav ul li a:hover {
     flex-direction: row;
     /* Align text and image horizontally */
     align-items: center;
-    background: hsl(0, 0%, 100%);
+    background: hsl(0, 1%, 63%);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
