@@ -13,14 +13,17 @@
 </head>
 <body>
 <header>
-  <nav>
+<nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+        <!-- Home link -->
+        <li><a href="{{ url('/home') }}">Home</a></li>
+        <!-- About Us link -->
+        <li><a href="{{ url('/about') }}">About Us</a></li>
+        <!-- Content link -->
+        <li><a href="{{ url('/content') }}">Content</a></li>
     </ul>
-  </nav>
+</nav>
+
 </header>
     <div class="section-header">
     <h2 class="header header_home">About Us</h2>
