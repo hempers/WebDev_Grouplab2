@@ -53,14 +53,15 @@ nav ul li a:hover {
 
 .section-header {
     text-align: center;
-    margin-top: 3%;
-    color: #fff;
+    margin-top: 5%;
+    color: #d8d7d7;
 }
 
 .section-header h2 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 45px;
     margin: 0;
+    text-align: center;
 }
 
 .section-header p {
@@ -103,6 +104,11 @@ nav ul li a:hover {
     animation: shine 1.5s infinite;
 }
 
+.box h2 {
+    font-weight: bold;
+    color: #fff;
+}
+
 .box h3,
 .box p {
     margin: 10px 0;
@@ -120,19 +126,6 @@ nav ul li a:hover {
     margin-bottom: 15px;
     display: block;
     text-align: left;
-}
-
-.section-header {
-    text-align: center;
-    margin-top: 5%;
-    color: #d8d7d7;
-}
-
-.section-header h2 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 45px;
-    margin: 0;
-    text-align: center;
 }
 
 .box:before,

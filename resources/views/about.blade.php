@@ -32,27 +32,27 @@
     <div class="info-image">
         <img src="assets/img/about/richard.jpg" alt="Richard D. Bilan">
     </div>
-    <h3> RICHARD D. BILAN JR. </h3>
-    <h3> P4 Brgy 1 Pob. Camalig, Albay</h3>
-    <h3> BS Information Technology 3rd Year</h3>
+    <h2> RICHARD D. BILAN JR. </h2>
+    <h3> Purok 4 Brgy 1 Pob. Camalig, Albay</h3>
+    <h3> BS Information Technology <br> 3rd Year Student</h3>
     <p>I am an IT student with a strong curiosity about the tech field. While I am still exploring my future career path, I'm focused on finishing my studies and excited to learn more about technology.</p>
 </div>
 <div class="box">
     <div class="info-image">
         <img src="assets/img/about/meh.jpg" alt="Mae Anne Bongat">
     </div>
-    <h3> MAE ANNE B. BONGAT</h3>
-    <h3> Zone 2 Bogñabong Tabaco City, Albay</h3>
-    <h3>  BS Information Technology 3rd Year</h3>
+    <h2> MAE ANNE B. BONGAT</h2>
+    <h3> Purok 2 Bogñabong Tabaco City, Albay</h3>
+    <h3>  BS Information Technology<br> 3rd Year Student</h3>
     <p>A student eager to learn more about the IT industry. Although still uncertain about which path to take, I am committed to completing everything needed to graduate.</p>
 </div>
 <div class="box">
     <div class="info-image">
         <img src="assets/img/about/thei.jpg" alt="Althea M. Casimiro">
     </div>
-    <h3> ALTHEA M. CASIMIRO</h3>
+    <h2> ALTHEA M. CASIMIRO</h2>
     <h3> Purok 5 Masarawag Guinobatan, Albay</h3>
-    <h3>  BS Information Technology 3rd Year</h3>
+    <h3>  BS Information Technology<br> 3rd Year Student</h3>
     <p>I'm an IT student who is passionate about finishing my studies in this course but I also love engaging in creative activities that I find interesting and enjoyable during my free time.</p>
 </div>
     </div>
