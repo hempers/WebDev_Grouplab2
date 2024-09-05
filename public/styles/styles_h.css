@@ -18,19 +18,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px; 
+    padding: 10px;
     background-color: #333;
     color: #fff;
 }
 
-.text{
+.text {
     padding-left: 50px;
     color: #c5c5c5;
-  }
-  
-  a:hover .text {
+}
+
+a:hover .text {
     color: rgb(12, 12, 12);
-  }
+}
 
 header .logo h1 {
     margin: 0;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container .logo {
@@ -87,7 +87,6 @@ h2 {
     color: #aaaaaa;
     margin-bottom: 20px;
 }
-
 
 button {
     padding: 10px 20px;
@@ -111,4 +110,3 @@ button:active {
     background-color: #222;
     color: #ccc;
 }
-
