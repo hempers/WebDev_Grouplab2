@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    /* Ensures body covers the full viewport height */
 }
 
 body {
@@ -13,25 +12,17 @@ body {
     background-image: linear-gradient(45deg, #1c201e, #31312b);
     min-height: 100vh;
     overflow-x: hidden;
-    /* Prevents horizontal scroll */
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    /* Aligns the nav to the right */
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #333;
-    /* Dark background color */
     color: #e7e6e6;
-    /* Light text color */
     margin: 0;
-    /* Removes any extra margin */
 }
-
-
-/* Navigation Styles */
 
 nav {
     display: flex;
@@ -43,7 +34,7 @@ nav ul {
     display: flex;
     gap: 40px;
     margin: 0;
-    /* Removes any default margin */
+    margin-right: 20px;
 }
 
 nav ul li {
@@ -52,18 +43,13 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    /* White text color */
     text-decoration: none;
     font-size: 16px;
 }
 
 nav ul li a:hover {
     color: black;
-    /* Changes color on hover */
 }
-
-
-/* Header Styles */
 
 .section-header {
     text-align: center;
@@ -80,9 +66,6 @@ nav ul li a:hover {
 .section-header p {
     margin: 0;
 }
-
-
-/* Box Styles */
 
 .container {
     display: grid;
@@ -112,13 +95,9 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Distributes content evenly */
     align-items: left;
-    /* Centers the content */
     min-height: 300px;
-    /* Sets a minimum height for all boxes */
     height: auto;
-    /* Ensures the boxes expand with content */
     background-image: linear-gradient(45deg, #121336, #31312b);
     background-size: 200% 100%;
     animation: shine 1.5s infinite;
@@ -129,7 +108,6 @@ nav ul li a:hover {
     margin: 10px 0;
     color: #fff;
     text-align: left;
-    /* Align text to the left */
     font-size: 1.2rem;
     line-height: 1.5;
 }
@@ -137,20 +115,17 @@ nav ul li a:hover {
 .box .info-image img {
     width: 100%;
     height: 250px;
-    /* Set a fixed height for consistency */
     object-fit: cover;
-    /* Ensures the image covers the area without distortion */
     border-radius: 10px;
     margin-bottom: 15px;
     display: block;
     text-align: left;
-    /* Align image with the text */
 }
 
 .section-header {
     text-align: center;
     margin-top: 5%;
-    color: #fff;
+    color: #d8d7d7;
 }
 
 .section-header h2 {
@@ -158,11 +133,7 @@ nav ul li a:hover {
     font-size: 45px;
     margin: 0;
     text-align: center;
-    /* Keep section header centered */
 }
-
-
-/* Hover Effects */
 
 .box:before,
 .box:after {
