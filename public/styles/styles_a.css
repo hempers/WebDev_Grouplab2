@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 .section-header {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     color: #fff;
 }
 
@@ -87,12 +87,9 @@ nav ul li a:hover {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 1px;
     padding: 20px;
 }
-
-
-/* Keyframe Animation for Shine Effect */
 
 @keyframes shine {
     0% {
@@ -103,23 +100,25 @@ nav ul li a:hover {
     }
 }
 
-
-/* Updated Box Styles with Shine Effect */
-
 .box {
     position: relative;
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.5) 100%);
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
-    text-align: center;
-    border-radius: 10px;
+    text-align: left;
+    border-radius: 5px;
     transition: all 0.6s ease;
-    margin: 20px;
+    margin: 40px;
     overflow: hidden;
-    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    /* Distributes content evenly */
+    align-items: left;
+    /* Centers the content */
+    min-height: 300px;
+    /* Sets a minimum height for all boxes */
+    height: auto;
+    /* Ensures the boxes expand with content */
     background-image: linear-gradient(45deg, #121336, #31312b);
     background-size: 200% 100%;
     animation: shine 1.5s infinite;
@@ -129,17 +128,37 @@ nav ul li a:hover {
 .box p {
     margin: 10px 0;
     color: #fff;
-    text-align: center;
+    text-align: left;
+    /* Align text to the left */
     font-size: 1.2rem;
     line-height: 1.5;
 }
 
 .box .info-image img {
-    max-width: 100%;
+    width: 100%;
+    height: 250px;
+    /* Set a fixed height for consistency */
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
     border-radius: 10px;
     margin-bottom: 15px;
-    height: auto;
-    object-fit: cover;
+    display: block;
+    text-align: left;
+    /* Align image with the text */
+}
+
+.section-header {
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.section-header h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    /* Keep section header centered */
 }
 
 
@@ -197,9 +216,6 @@ nav ul li a:hover {
 .box:hover span {
     left: 110%;
 }
-
-
-/* Responsive Styles */
 
 @media (max-width: 1000px) {
     .box {
