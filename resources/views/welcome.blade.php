@@ -6,22 +6,20 @@
     <title>Web Development</title>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Figtree:wght@300;600&amp;display=swap'>
     <link rel="stylesheet" href="styles/styles_h.css">
-    <!-- Add Bootstrap CSS for modal styling -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 
     <header>
         <div class="logo">
-            <a href="{{ url('/') }}" style="text-decoration: none;">
-                <h1 class="text">Laravel</h1>
-            </a>
+        <a href="{{ url('/') }}" style="text-decoration: none;">
+        <h1 class="text">Laravel</h1>
+      </a>
         </div>
         <nav>
             <ul>
-                <li><a href="{{ url('/home')}}">Home</a></li>
+                <li><a href="{{ url('/')}}">Home</a></li>
                 <li><a href="{{ url('/about')}}">About</a></li>
-                <li><a href="{{ url('/content')}}">Content</a></li>
+                <li><a href="{{ url('/contactus')}}">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -29,13 +27,14 @@
     <div class="container">
         <img src="assets/img/home/logo.svg" alt="Laravel Logo" class="logo">
         <h1>Web Development</h1>
-        <h2>First Laravel Project</h2>
+        <h2>Group Laboratory Project</h2>
         <a href="{{ url('/content')}}">
-            <button>Explore More</button>
+        <button>Explore More</button>
         </a>
+        
     </div>
 
-    <!-- Modal -->
+     <!-- Modal 
     <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -55,7 +54,7 @@
         </div>
     </div>
 
-    <!-- jQuery and Bootstrap JS for modal functionality -->
+   jQuery and Bootstrap JS for modal functionality
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -66,6 +65,10 @@
                 $('#welcomeModal').modal('show');
             @endguest
         });
-    </script>
+    </script> -->
+
+
 </body>
 </html>
+
+   
