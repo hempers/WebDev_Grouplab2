@@ -1,61 +1,60 @@
-html {
-    height: 100%;
-    height: 100%;
-}
-
 body{
     background: #1c201e(150, 3%, 12%);
-    height: 100%;
-    font-family: "Figtree", sans-serif;
-}
-
-header {
-    font-family: "Figtree", sans-serif;;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3px; 
-    background-color: #444444;
-    color: #e7e6e6;
-    margin-top: -5px;
-  }
-
-  .list{
-    padding-left: 77%;
+ 
   }
   
-  a:hover .text {
-    color: black;
-  }
+  html {
+      height: 100%;
+      background: #1c201e(150, 3%, 12%); 
+    }
+    
+    header {
+      font-family: "Figtree", sans-serif;;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      background-color: #333;
+      color: #e7e6e6;
+      margin-top: -8px;
+    }
   
-  .logo h1 {
-    margin: 0;
-  }
+    .list{
+      padding-left: 77%;
+    }
+    
+    a:hover .text {
+      color: black;
+    }
+    
+    .logo h1 {
+      margin: 0;
+    }
+    
+    nav ul {
+      margin-left: 100%;
+      list-style: none;
+      margin: 0%;
+      padding: 0%;
+      display: flex;
+      gap: 40px;
+    }
+    
+    nav ul li {
+      margin: 0;
+      margin-right: 15px;
+      margin-top: 15px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    nav ul li a:hover {
+      color: black;
+    }
   
-  nav ul {
-    margin-left: 100%;
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    gap: 40px;
-  }
-  
-  nav ul li {
-    margin: 0;
-    margin-right: 15px;
-    margin-top: 15px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  nav ul li a:hover {
-    color: black;
-  }
 
 .section-header {
     text-align: center;
@@ -165,7 +164,7 @@ header {
     opacity: 1;
     transition-delay: .3s;
 }
- 
+
 .box:hover {
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.5) 100%);
