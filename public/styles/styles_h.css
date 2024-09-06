@@ -121,6 +121,7 @@ button:active {
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 1rem); /* Center the modal vertically */
+    max-width: 100%;
 }
 
 .modal-content {
@@ -130,7 +131,7 @@ button:active {
     opacity: 90%;
     height: 50%;
     width: 400px;
-    width: 300px;
+    max-width: 20%;
 }
 
 .modal-footer,.modal-title,.modal-header{
@@ -140,13 +141,15 @@ button:active {
 .modal-footer {
     border-top: none; /* Remove the horizontal line above the footer */
     justify-content: center; /* Optional: center the "Get Started" button */
-    margin-right: 175px;
+    margin-right: 120px;
 }
 
 .modal-body p {
     text-align: center;
-    font-size: 1.2rem; /* Style the welcome message */
+    font-size: 1.8rem; /* Style the welcome message */
     border:none;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 
