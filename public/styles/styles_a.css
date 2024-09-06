@@ -37,6 +37,8 @@ body{
       padding: 0%;
       display: flex;
       gap: 40px;
+      margin-top: -5px;
+      padding-bottom: 5px;
     }
     
     nav ul li {

@@ -3,21 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact Us</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Figtree:wght@300;600&amp;display=swap'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Quicksand&amp;display=swap'><link rel="stylesheet" href="{{ url('styles/style_con.css') }}">
-
-
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Figtree:wght@300;600&amp;display=swap'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Quicksand&amp;display=swap'>
+	<link rel="stylesheet" href="{{ url('styles/style_con.css') }}">
 </head>
 <body>
 
 <header>
     <nav class="list">
         <ul>
-            <li><a href="{{ url('/')}}">Home</a></li>
-            <li><a href="{{ url('/about')}}">About</a></li>
-            <li><a href="{{ url('/contactus')}}">Contact Us</a></li>
+		<li><a href="{{ url('/welcome')}}" style="text-decoration: none;">Home</a></li>
+                <li><a href="{{ url('/about')}}"style="text-decoration: none;">About</a></li>
+                <li><a href="{{ url('/contactus')}}"style="text-decoration: none;">Contact Us</a></li>
         </ul>
     </nav>
 </header>

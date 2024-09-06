@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Staatliches&display=swap'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Figtree:wght@300;600&amp;display=swap'>
@@ -17,9 +17,9 @@
 <header>
     <nav class="list">
         <ul>
-            <li><a href="{{ url('/')}}">Home</a></li>
-            <li><a href="{{ url('/about')}}">About</a></li>
-            <li><a href="{{ url('/contactus')}}">Contact Us</a></li>
+        <li><a href="{{ url('/welcome')}}" style="text-decoration: none;">Home</a></li>
+                <li><a href="{{ url('/about')}}"style="text-decoration: none;">About</a></li>
+                <li><a href="{{ url('/contactus')}}"style="text-decoration: none;">Contact Us</a></li>
         </ul>
     </nav>
 </header>
