@@ -1,51 +1,61 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
+html {
     height: 100%;
-    background-color: #31312b;
-    font-family: "Figtree", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    height: 100%;
 }
 
+body{
+    background: #1c201e(150, 3%, 12%);
+    height: 100%;
+    font-family: "Figtree", sans-serif;
+}
 
 header {
+    font-family: "Figtree", sans-serif;;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 3px; 
+    background-color: #444444;
     color: #e7e6e6;
+    margin-top: -5px;
+  }
+
+  .list{
+    padding-left: 77%;
+  }
+  
+  a:hover .text {
+    color: black;
+  }
+  
+  .logo h1 {
     margin: 0;
-}
-
-nav {
-    display: flex;
-}
-
-nav ul {
+  }
+  
+  nav ul {
+    margin-left: 100%;
     list-style: none;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     display: flex;
     gap: 40px;
+  }
+  
+  nav ul li {
     margin: 0;
-    margin-right: 20px;
-}
-
-nav ul li {
-    margin: 0;
-}
-
-nav ul li a {
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  
+  nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-}
-
-nav ul li a:hover {
+  }
+  
+  nav ul li a:hover {
     color: black;
-}
+  }
 
 .section-header {
     text-align: center;
