@@ -6,7 +6,7 @@
 
 body {
     font-family: "Figtree", sans-serif;
-    background: url('assets/img/home/bg.avif') no-repeat center center fixed;
+    background: url('/styles/assets/img/home/bg.avif') no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
     padding-top: -10px;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(158, 0, 0, 0.5); 
 }
 
 .container .logo {
