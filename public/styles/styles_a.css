@@ -3,15 +3,12 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-}
-
-body {
+    background-color: #31312b;
     font-family: "Figtree", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
-    background-color: #31312b;
-    overflow-x: hidden;
 }
+
 
 header {
     display: flex;
