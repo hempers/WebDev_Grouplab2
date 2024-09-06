@@ -29,7 +29,6 @@
         color: #c5c5c5;
         font-weight: bolder;
         margin-top: 10px;
-        padding-bottom: 10px;
     }
     
     a:hover .text {
@@ -43,9 +42,7 @@
 
     nav ul {
         list-style: none;
-        margin-left: 80%;
-        margin-top: -40px;
-        padding-bottom: 10px;
+        margin-top: -3px;
         padding: 0;
         display: flex;
         gap: 44px;
@@ -63,7 +60,7 @@
     }
 
     nav ul li a:hover {
-        color: black;
+        color: rgb(0, 0, 0);
     }
 
     .container {
