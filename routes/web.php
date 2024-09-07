@@ -20,6 +20,9 @@ Route::get('/user/{name?}', function ($name = null) {
 
     $userName = $userName ?: 'Guest';
 
+    $userName = ucfirst(strtolower($userName));
+
     session()->flash('user_name', $userName);
+
     return redirect('/');
 });
