@@ -10,11 +10,11 @@ Route::get('/', function () {
 Route::get('/contactus', function () {
     return view('contactus');
 });
+
 Route::get('/about', function () {
     return view('about');
 });
-
-
+    
 Route::get('/user/{name?}', function ($name = null) {
     $userName = preg_replace('/[^a-zA-Z]/', '', $name);
 
