@@ -1,14 +1,15 @@
 body{
-  background: #01fd7f(150, 3%, 12%);
+  background: #1c201e;
   overflow: hidden;
   height: 100%;
 }
 
 html {
     height: 100%;
-    background: #1c201e(150, 3%, 12%);
+    background: #1c201e;
     overflow: hidden;
-    
+    width: 100vw; 
+    box-sizing: border-box; 
   }
   
   header {

@@ -6,7 +6,6 @@
 }
 
 body {
-    font-family: "Figtree", sans-serif;
     background: url('assets/img/home/bg.avif') no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
@@ -25,15 +24,15 @@ header {
 }
 
 .text{
-    padding-left: 50px;
+    padding-left: 55px;
+    padding-bottom: 15px;
     color: #c5c5c5;
     font-weight: bolder;
-    margin-top: 10px;
-}
-
-a:hover .text {
-    color: rgb(0, 0, 0);
-}
+  }
+  
+  a:hover .text {
+    color: black;
+  }
 
 header .logo h1 {
     margin: 0;
@@ -42,10 +41,12 @@ header .logo h1 {
 
 nav ul {
     list-style: none;
-    margin-top: -3px;
+    margin: 0;
     padding: 0;
     display: flex;
-    gap: 44px;
+    gap: 50px;
+    margin-left: 80%;
+    margin-top: -45px;
 }
 
 nav ul li {
@@ -60,18 +61,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .container {
-    font-family: "Figtree", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
 }
 
 .container .logo {
@@ -81,13 +81,13 @@ nav ul li a:hover {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     color: #d6d5d5;
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1em;
     color: #aaaaaa;
     margin-bottom: 20px;
 }
@@ -101,7 +101,7 @@ button {
     color: #afadad;
     background-color: #333;
     border: 2px solid #555;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -116,7 +116,6 @@ button:active {
     color: #ccc;
 }
 
-
 .welcome-section {
     padding: 20px;
 }
@@ -125,7 +124,7 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 1rem); 
+    min-height: calc(100vh - 1rem);
     max-width: 100%;
 }
 
@@ -136,7 +135,7 @@ button:active {
     opacity: 90%;
     height: 50%;
     width: 400px;
-    max-width: 20%;
+    max-width: 30%;
 }
 
 .modal-footer,.modal-title,.modal-header{
@@ -145,7 +144,7 @@ button:active {
 
 .modal-footer {
     border-top: none; 
-    justify-content: center; 
+    justify-content: center;
     margin-right: 120px;
 }
 
@@ -156,4 +155,5 @@ button:active {
     font-weight: bold;
     margin-top: 20px;
 }
+
 
