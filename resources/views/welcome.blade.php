@@ -22,7 +22,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="{{ url('/welcome')}}" style="text-decoration: none;">Home</a></li>
+                <li><a href="{{ url('/')}}" style="text-decoration: none;">Home</a></li>
                 <li><a href="{{ url('/about')}}"style="text-decoration: none;">About</a></li>
                 <li><a href="{{ url('/contactus')}}"style="text-decoration: none;">Contact Us</a></li>
             </ul>

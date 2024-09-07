@@ -6,9 +6,7 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+
 Route::get('/contactus', function () {
     return view('contactus');
 });
